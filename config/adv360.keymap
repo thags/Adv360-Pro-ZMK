@@ -14,12 +14,13 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <350>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <150>;
+            quick-tap-ms = <25>;
             require-prior-idle-ms = <150>;
+            retro-tap;
         };
     };
 
